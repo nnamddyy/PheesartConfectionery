@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nd.pheesartconfectionery.MainActivity">
+
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_height="200dp"
+    android:src="@drawable/ph"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="We strive to satisfy your needs as it pertains to small chops,cakes and snacks"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:src="@drawable/timer"
+    android:textStyle="bold"
+    android:textSize="16sp"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday-Saturday"
+            android:layout_margin="8dp"
+
+            android:textSize="16sp"
+            />
+        <View
+            android:layout_width="2dp"
+            android:background="@android:color/darker_gray"
+            android:layout_height="match_parent"></View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00AM - 5:00PM"
+            android:layout_margin="8dp"
+
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us - "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="4dp"
+        android:text="15 Kagara close, F-Layout, Minna, Niger State"/>
+    </LinearLayout>
+
+            <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        
+
+    </RelativeLayout>
+</LinearLayout>
